@@ -49,12 +49,12 @@ else:
     quit()
 if vyberte_cislo.isnumeric():
     vyberte_cislo = int(vyberte_cislo)
-    if vyberte_cislo in range(len(TEXTS) + 1):
-        vyberte_cislo_textu = vyberte_cislo - 1
-        muj_text_vybranehu = TEXTS[vyberte_cislo_textu]
-        print(delka)
-        print(f"zadejte cislo mezi 1 a 3 vyberte textu: {vyberte_cislo}")
-        print(delka)
+if vyberte_cislo in range(len(TEXTS) + 1):
+    vyberte_cislo_textu = vyberte_cislo - 1
+    muj_text_vybranehu = TEXTS[vyberte_cislo_textu]
+    print(delka)
+    print(f"zadejte cislo mezi 1 a 3 vyberte textu: {vyberte_cislo}")
+    print(delka)
 else:
     print(delka2)
     print("omlouvame se, vybrabrane cislo neodpovida vyberu textu")
@@ -100,12 +100,12 @@ clean_words2 = clean_words[27]
 clean_words3 = clean_words[12].strip("impr")
 clean_words4 = clean_words[13]
 clean_words5 = clean_words[1].strip("ab")
-clean_words6 = clean_words[11].strip("rug")
-clean_words7 = clean_words[48].strip("Pa")
-clean_words8 = clean_words[14].strip("featu")
+clean_words6 = clean_words[11].strip("ruge")
+clean_words7 = clean_words[49].strip("Ral")
+clean_words8 = clean_words[14].strip("e")
 clean_words9 = clean_words[15].strip("th")
-clean_words10 = clean_words[17].strip("sharpl")
-clean_words11 = clean_words[53].strip("vale")
+clean_words10 = clean_words[48].strip("peacif")
+clean_words11 = clean_words[51].strip("raves")
 len_word1 = "*" * len(clean_words1)
 len_word2 = "*" * len(clean_words2)
 len_word3 = "*" * len(clean_words3)
@@ -122,9 +122,9 @@ print("  2|".rstrip(), len_word2, "   |".rstrip(), len(len_word2))
 print("  3|".rstrip(), len_word3, "      |".rstrip(), len(len_word3))
 print("  4|".rstrip(), len_word4, " |".rstrip(), len(len_word4))
 print("  5|".rstrip(), len_word5, "         |".rstrip(), len(len_word5))
-print("  6|".rstrip(), len_word6, "        |".rstrip(), len(len_word6))
-print("  7|".rstrip(), len_word7, "       |".rstrip(), len(len_word7))
-print("  8|".rstrip(), len_word8, "           |".rstrip(), len(len_word8))
+print("  6|".rstrip(), len_word6, "         |".rstrip(), len(len_word6))
+print("  7|".rstrip(), len_word7, "      |".rstrip(), len(len_word7))
+print("  8|".rstrip(), len_word8, "      |".rstrip(), len(len_word8))
 print("  9|".rstrip(), len_word9, "           |".rstrip(), len(len_word9))
 print(" 10|".rstrip(), len_word10, "           |".rstrip(), len(len_word10))
 print(" 11|".rstrip(), len_word11, "           |".rstrip(), len(len_word11))
