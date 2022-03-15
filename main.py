@@ -95,6 +95,14 @@ titulka1 = " OCCURENCES "
 titulka1.strip()
 print(f"LEN| {titulka1} |NR.")
 print(delka)
+my_clean_text = clean_words
+my_dict = {}
+symbol = "|"
+for word in my_clean_text:
+    my_dict[len(word)] = my_dict.get(len(word), 0) + 1
+for my_key in sorted(my_dict):
+    print("{:>2} {} {}".format(my_key, symbol, my_dict[my_key] * "*"), "{} {}".format(symbol, my_dict[my_key]))
+"""
 clean_words1 = clean_words[0].strip("Situate")
 clean_words2 = clean_words[27]
 clean_words3 = clean_words[12].strip("impr")
@@ -128,7 +136,7 @@ print("  8|".rstrip(), len_word8, "      |".rstrip(), len(len_word8))
 print("  9|".rstrip(), len_word9, "           |".rstrip(), len(len_word9))
 print(" 10|".rstrip(), len_word10, "           |".rstrip(), len(len_word10))
 print(" 11|".rstrip(), len_word11, "           |".rstrip(), len(len_word11))
-
+"""
 
 
 
