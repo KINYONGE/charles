@@ -102,41 +102,7 @@ for word in my_clean_text:
     my_dict[len(word)] = my_dict.get(len(word), 0) + 1
 for my_key in sorted(my_dict):
     print("{:>2} {} {}".format(my_key, symbol, my_dict[my_key] * "*"), "{} {}".format(symbol, my_dict[my_key]))
-"""
-clean_words1 = clean_words[0].strip("Situate")
-clean_words2 = clean_words[27]
-clean_words3 = clean_words[12].strip("impr")
-clean_words4 = clean_words[13]
-clean_words5 = clean_words[1].strip("ab")
-clean_words6 = clean_words[11].strip("ruge")
-clean_words7 = clean_words[49].strip("Ral")
-clean_words8 = clean_words[14].strip("e")
-clean_words9 = clean_words[15].strip("th")
-clean_words10 = clean_words[48].strip("peacif")
-clean_words11 = clean_words[51].strip("raves")
-len_word1 = "*" * len(clean_words1)
-len_word2 = "*" * len(clean_words2)
-len_word3 = "*" * len(clean_words3)
-len_word4 = "*" * len(clean_words4)
-len_word5 = "*" * len(clean_words5)
-len_word6 = "*" * len(clean_words6)
-len_word7 = "*" * len(clean_words7)
-len_word8 = "*" * len(clean_words8)
-len_word9 = "*" * len(clean_words9)
-len_word10 = "*" * len(clean_words10)
-len_word11 = "*" * len(clean_words11)
-print("  1|".rstrip(), len_word1, "           |".rstrip(), len(len_word1))
-print("  2|".rstrip(), len_word2, "   |".rstrip(), len(len_word2))
-print("  3|".rstrip(), len_word3, "      |".rstrip(), len(len_word3))
-print("  4|".rstrip(), len_word4, " |".rstrip(), len(len_word4))
-print("  5|".rstrip(), len_word5, "         |".rstrip(), len(len_word5))
-print("  6|".rstrip(), len_word6, "         |".rstrip(), len(len_word6))
-print("  7|".rstrip(), len_word7, "      |".rstrip(), len(len_word7))
-print("  8|".rstrip(), len_word8, "      |".rstrip(), len(len_word8))
-print("  9|".rstrip(), len_word9, "           |".rstrip(), len(len_word9))
-print(" 10|".rstrip(), len_word10, "           |".rstrip(), len(len_word10))
-print(" 11|".rstrip(), len_word11, "           |".rstrip(), len(len_word11))
-"""
+
 
 
 
